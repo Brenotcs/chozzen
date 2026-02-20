@@ -6,7 +6,7 @@ export function Bio() {
       <div className="divider" />
       <section id="bio" className="py-30 md:py-20 relative bg-gradient-to-b from-black-abyss via-purple-deep/10 to-black-abyss">
         <div className="container">
-          <div className="grid grid-cols-1 lg:grid-cols-[1fr_1.5fr] gap-20 lg:gap-32 items-center">
+          <div className="grid grid-cols-1 md:grid-cols-[1fr_1.5fr] gap-10 md:gap-16 lg:gap-20 xl:gap-32 items-center">
             {/* Image */}
             <div className="relative">
               <div className="relative aspect-[3/4] overflow-hidden border border-violet/20">
@@ -35,12 +35,12 @@ export function Bio() {
             <div>
               <span className="section-label">◈ 001 — Identidade</span>
               <h2 className="section-title">Bio</h2>
-              <p className="text-base font-light leading-relaxed text-silver/75 mb-5">
+              <p className="text-sm md:text-base font-light leading-relaxed text-silver/75 mb-4 md:mb-5">
                 CHOZZEN é um projeto de DJ e produção eletrônica nascido da confluência entre psicodelia
                 moderna e tecnologia sonora. Com uma identidade visual e sonora única — construída para gerar
                 experiências, não apenas sets.
               </p>
-              <p className="text-base font-light leading-relaxed text-silver/75">
+              <p className="text-sm md:text-base font-light leading-relaxed text-silver/75">
                 Cada performance é uma jornada cuidadosamente construída: seleção técnica, leitura de pista e
                 curadoria que equilibra energia e profundidade. Do grave ao espaço — CHOZZEN não toca música.
                 Canaliza frequência.
