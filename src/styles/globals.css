@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&family=Lexend:wght@300;400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  cursor: none !important;
+}
+
+@layer base {
+  body {
+    @apply bg-black-abyss text-silver font-lexend overflow-x-hidden;
+  }
+}
+
+@layer components {
+  .cursor {
+    @apply fixed w-3 h-3 rounded-full bg-blue-freq pointer-events-none z-[9999] shadow-glow-blue mix-blend-screen;
+  }
+
+  .cursor-trail {
+    @apply fixed w-[30px] h-[30px] rounded-full border border-violet/40 pointer-events-none z-[9998] transition-all mix-blend-screen;
+  }
+
+  .container {
+    @apply max-w-[1100px] mx-auto px-12 md:px-6;
+  }
+
+  .section-label {
+    @apply font-zen text-xs tracking-widest uppercase text-blue-freq mb-4 block;
+  }
+
+  .section-title {
+    @apply font-zen text-2xl md:text-3xl lg:text-5xl text-white leading-tight mb-12;
+  }
+
+  .divider {
+    @apply w-full h-px bg-gradient-to-r from-transparent via-violet/30 via-blue-freq/30 to-transparent;
+  }
+
+  .btn-primary {
+    @apply inline-block px-11 py-3.5 bg-transparent border border-blue-freq text-white font-lexend text-xs tracking-widest uppercase no-underline relative overflow-hidden transition-shadow duration-300 hover:shadow-glow-blue;
+  }
+}
