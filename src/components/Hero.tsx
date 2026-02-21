@@ -18,7 +18,7 @@ export function Hero() {
         style={{
           backgroundImage:
             'linear-gradient(rgba(61,107,240,0.04) 1px, transparent 1px), linear-gradient(90deg, rgba(61,107,240,0.04) 1px, transparent 1px)',
-          backgroundSize: '60px 60px',
+          backgroundSize: 'clamp(40px, 8vw, 60px) clamp(40px, 8vw, 60px)',
         }}
       />
 
@@ -42,8 +42,8 @@ export function Hero() {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 text-center px-6">
-        <p className="text-xs tracking-widest uppercase text-blue-freq mb-5 opacity-0 animate-[fadeUp_0.8s_ease_forwards_0.3s]">
+      <div className="relative z-10 text-center px-4 sm:px-6">
+        <p className="text-xs tracking-widest uppercase text-blue-freq mb-3 sm:mb-5 opacity-0 animate-[fadeUp_0.8s_ease_forwards_0.3s]">
           ◈ Psicodelia · Frequência · Presença
         </p>
         <div className="relative inline-block">
@@ -59,10 +59,10 @@ export function Hero() {
             CHOZZEN
           </div>
         </div>
-        <p className="text-[clamp(0.75rem,2vw,1rem)] font-light tracking-widest text-silver/60 mt-5 uppercase opacity-0 animate-[fadeUp_1s_ease_forwards_0.8s]">
+        <p className="text-[clamp(0.75rem,2vw,1rem)] font-light tracking-widest text-silver/60 mt-3 sm:mt-5 uppercase opacity-0 animate-[fadeUp_1s_ease_forwards_0.8s]">
           Onde o místico encontra o eletrônico
         </p>
-        <div className="mt-12 opacity-0 animate-[fadeUp_1s_ease_forwards_1.1s]">
+        <div className="mt-6 sm:mt-8 md:mt-12 opacity-0 animate-[fadeUp_1s_ease_forwards_1.1s]">
           <a
             href="#contact"
             onClick={handleScroll('contact')}

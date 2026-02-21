@@ -5,11 +5,11 @@ export function Visual() {
   return (
     <>
       <div className="divider" />
-      <section id="visual" className="py-30 md:py-20 bg-black-abyss">
+      <section id="visual" className="py-16 sm:py-20 md:py-24 lg:py-30 bg-black-abyss">
         <div className="container">
           <span className="section-label">◈ 004 — Estética</span>
           <h2 className="section-title">Visual</h2>
-          <div className="grid grid-cols-1 md:grid-cols-[1.5fr_1fr] md:grid-rows-[auto_auto] gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-[1.5fr_1fr] md:grid-rows-[auto_auto] gap-3 sm:gap-4">
             {GALLERY_ITEMS.map((item, i) => (
               <div
                 key={i}

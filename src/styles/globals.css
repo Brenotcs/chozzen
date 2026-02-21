@@ -11,6 +11,15 @@ body,
   cursor: none !important;
 }
 
+/* Show normal cursor on touch devices */
+@media (hover: none) and (pointer: coarse) {
+  html,
+  body,
+  * {
+    cursor: auto !important;
+  }
+}
+
 /* Ensure no cursor on all interactive elements */
 button,
 a,
@@ -20,9 +29,27 @@ textarea {
   cursor: none !important;
 }
 
+@media (hover: none) and (pointer: coarse) {
+  button,
+  a,
+  input,
+  select,
+  textarea {
+    cursor: auto !important;
+  }
+}
+
 @layer base {
   body {
     @apply bg-black-abyss text-silver font-lexend overflow-x-hidden;
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  html {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
   }
 }
 
@@ -37,8 +64,16 @@ textarea {
     will-change: transform;
   }
 
+  /* Hide cursor on touch devices */
+  @media (hover: none) and (pointer: coarse) {
+    .cursor,
+    .cursor-trail {
+      display: none !important;
+    }
+  }
+
   .container {
-    @apply max-w-[1100px] mx-auto px-12 md:px-6;
+    @apply max-w-[1100px] mx-auto px-4 sm:px-6 lg:px-12;
   }
 
   .section-label {

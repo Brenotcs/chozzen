@@ -4,9 +4,9 @@ export function Bio() {
   return (
     <>
       <div className="divider" />
-      <section id="bio" className="py-30 md:py-20 relative bg-gradient-to-b from-black-abyss via-purple-deep/10 to-black-abyss">
+      <section id="bio" className="py-16 sm:py-20 md:py-24 lg:py-30 relative bg-gradient-to-b from-black-abyss via-purple-deep/10 to-black-abyss">
         <div className="container">
-          <div className="grid grid-cols-1 md:grid-cols-[1fr_1.5fr] gap-10 md:gap-16 lg:gap-20 xl:gap-32 items-center">
+          <div className="grid grid-cols-1 md:grid-cols-[1fr_1.5fr] gap-6 sm:gap-8 md:gap-16 lg:gap-20 xl:gap-32 items-center">
             {/* Image */}
             <div className="relative">
               <div className="relative aspect-[3/4] overflow-hidden border border-violet/20">
