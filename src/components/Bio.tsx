@@ -88,7 +88,7 @@ export function Bio() {
                 Bio
               </h2>
               <p className="text-sm md:text-base font-light leading-relaxed text-silver/75 mb-4 md:mb-5 animate-fade-in-up animate-delay-500 transition-colors duration-300 hover:text-silver/90">
-                CHOZZEN é um projeto de DJ e produção eletrônica nascido da
+                DJ PRODUCER é um projeto de DJ e produção eletrônica nascido da
                 confluência entre psicodelia moderna e tecnologia sonora. Com
                 uma identidade visual e sonora única — construída para gerar
                 experiências, não apenas sets.
@@ -96,7 +96,7 @@ export function Bio() {
               <p className="text-sm md:text-base font-light leading-relaxed text-silver/75 animate-fade-in-up animate-delay-600 transition-colors duration-300 hover:text-silver/90">
                 Cada performance é uma jornada cuidadosamente construída:
                 seleção técnica, leitura de pista e curadoria que equilibra
-                energia e profundidade. Do grave ao espaço — CHOZZEN não toca
+                energia e profundidade. Do grave ao espaço — DJ PRODUCER não toca
                 música. Canaliza frequência.
               </p>
             </div>

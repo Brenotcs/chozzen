@@ -31,7 +31,7 @@ export function Navigation() {
             onClick={() => handleScroll('hero')}
             className="flex-1 text-center lg:flex-none lg:mr-0 font-zen text-lg sm:text-xl lg:text-2xl text-white tracking-widest cursor-pointer pointer-events-auto logo-hover transition-all duration-300 animate-fade-in-down hover:scale-110"
           >
-            CHOZZEN
+            DJ PRODUCER
           </div>
 
           {/* Desktop Menu */}

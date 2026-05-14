@@ -18,7 +18,7 @@ export function Contact() {
           {/* Contact Links */}
           <div className="flex flex-wrap justify-center gap-2 sm:gap-3 md:gap-4 mb-8 sm:mb-10 md:mb-14 stagger" data-animate-on-reveal>
             <a
-              href="mailto:booking@chozzen.com"
+              href="mailto:booking@djproducer.com"
               className="flex items-center gap-2 px-3 sm:px-4 md:px-7 py-2 sm:py-2.5 md:py-3.5 border border-violet/25 text-silver/65 text-xs tracking-widest uppercase transition-all duration-300 hover:border-blue-freq hover:text-white hover:shadow-[0_0_20px_rgba(61,107,240,0.2)] hover:-translate-y-0.5 hover:scale-105 min-h-[40px] md:min-h-auto animate-fade-in-up"
             >
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="w-3.5 h-3.5 md:w-4 md:h-4 flex-shrink-0 animate-rotate-slow">
@@ -38,7 +38,7 @@ export function Contact() {
               WhatsApp
             </a>
             <a
-              href="https://www.instagram.com/chozzenmusic/"
+              href="https://www.instagram.com/djproducer/"
               target="_blank"
               rel="noreferrer"
               className="flex items-center gap-2 px-3 sm:px-4 md:px-7 py-2 sm:py-2.5 md:py-3.5 border border-violet/25 text-silver/65 text-xs tracking-widest uppercase transition-all duration-300 hover:border-blue-freq hover:text-white hover:shadow-[0_0_20px_rgba(61,107,240,0.2)] hover:-translate-y-0.5 hover:scale-105 min-h-[40px] md:min-h-auto animate-fade-in-up"
@@ -54,7 +54,7 @@ export function Contact() {
 
           {/* Call to action button */}
           <a
-            href="mailto:booking@chozzen.com"
+            href="mailto:booking@djproducer.com"
             className="inline-block px-4 sm:px-8 md:px-16 py-3 md:py-4.5 bg-gradient-to-r from-violet to-blue-freq text-white font-zen text-xs md:text-sm tracking-widest uppercase transition-all duration-300 hover:shadow-[0_0_40px_rgba(130,71,255,0.5),0_0_80px_rgba(61,107,240,0.3)] hover:-translate-y-0.5 hover:scale-110 min-h-[44px] flex items-center justify-center animate-fade-in-up animate-delay-400"
           >
             Solicitar Booking

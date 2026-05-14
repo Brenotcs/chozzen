@@ -49,7 +49,7 @@ export function Hero() {
         </p>
         <div className="relative inline-block">
           <h1 className="font-zen text-[clamp(4rem,13vw,11rem)] text-white leading-[0.9] tracking-wide shadow-glow-violet opacity-0 animate-[fadeUp_1s_ease_forwards_0.5s]">
-            CHOZZEN
+            DJ PRODUCER
           </h1>
           <div
             className="absolute inset-0 text-transparent font-zen text-[clamp(4rem,13vw,11rem)] animate-glitch pointer-events-none"
@@ -57,7 +57,7 @@ export function Hero() {
               WebkitTextStroke: '1px rgba(130,71,255,0.3)',
             }}
           >
-            CHOZZEN
+            DJ PRODUCER
           </div>
         </div>
         <p className="text-[clamp(0.75rem,2vw,1rem)] font-light tracking-widest text-silver/60 mt-3 sm:mt-5 uppercase opacity-0 animate-[fadeUp_1s_ease_forwards_0.8s]">

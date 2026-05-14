@@ -1,11 +1,11 @@
-# CHOZZEN — DJ & Producer Portfolio
+# DJ PRODUCER — DJ & Producer Portfolio
 
-Uma página web moderna e responsiva para o artista CHOZZEN, construída com **Vite**, **React** e **TypeScript**.
+Uma página web moderna e responsiva para o artista DJ PRODUCER, construída com **Vite**, **React** e **TypeScript**.
 
 ## Estrutura do Projeto
 
 ```
-chozzen/
+dj-producer/
 ├── src/
 │   ├── components/          # Componentes React reutilizáveis
 │   │   ├── Navigation.tsx   # Navegação principal
@@ -43,7 +43,7 @@ chozzen/
 
 1. **Clone ou extraia o projeto:**
 ```bash
-cd chozzen
+cd dj-producer
 ```
 
 2. **Instale as dependências:**
